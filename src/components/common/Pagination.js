@@ -1,8 +1,12 @@
 import React, {useEffect, useState} from "react";
 import {Link} from "react-router-dom";
 function Pagination({totalPage,page,url}){
+
     const [links,setLinks] = useState([]);
     useEffect(()=>{
+        if(!page){
+            page = 1;
+        }
         let result = [];
         for(let i=1;i<=totalPage;i++){
             let object = {to:url+i,className:page==i?'active':'',title:i}
