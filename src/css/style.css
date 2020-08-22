@@ -142,3 +142,14 @@ footer {
 .center {
     margin: auto
 }
+.pagination{
+    display: flex;
+}
+.pagination-link{
+    margin-left:0.5rem;
+    padding:0.7rem;
+    border:1px solid #ccc;
+}
+.active {
+    background:#cccccc;
+}

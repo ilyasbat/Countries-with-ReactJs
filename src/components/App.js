@@ -13,6 +13,9 @@ function App(){
                 <Route path="/country/:id">
                     <CountryDetail />
                 </Route>
+                <Route path="/:page">
+                    <Home />
+                </Route>
                 <Route path="/">
                     <Home />
                 </Route>
