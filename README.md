@@ -1,4 +1,4 @@
-# Countries RectJs
+# Countries with ReactJs
 ### Links
 - [Background Image](https://www.psdgraphics.com/backgrounds/world-map-background/)
 - [Icons](https://flaticon.com)
