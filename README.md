@@ -6,7 +6,7 @@
 
 ### OTHERS
 - [x] [HTML & CSS](https://github.com/ilyasbat/countries-html-css)
-- [ ] VueJs
+- [x] [VueJs](https://github.com/ilyasbat/countries-with-vuejs)
 - [ ] React Native
 
 ### [Demo](https://countries-with-react-js.vercel.app/)
